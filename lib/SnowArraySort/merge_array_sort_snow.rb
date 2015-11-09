@@ -2,8 +2,8 @@ module SnowArraySort
   class MASort
     include SnowArraySort
 
-    def mergesort(array)
-      def merge(left_sorted, right_sorted)
+    def self.mergesort(array)
+      def self.merge(left_sorted, right_sorted)
         res = []
         l = 0
         r = 0
@@ -23,7 +23,7 @@ module SnowArraySort
         return res
       end
  
-     def mergesort_iter(array_sliced)
+     def self.mergesort_iter(array_sliced)
         return array_sliced if array_sliced.length <= 1
 
         mid = array_sliced.length/2 - 1

@@ -1,4 +1,3 @@
-
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
@@ -9,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = SnowArraySort::VERSION
   spec.authors       = ["Justin Snow"]
   spec.email         = ["jrsnow8921@gmail.com"]
-  spec.summary       = 'Algorithm's for sorting array's'
-  spec.description   = 'Support for ASC and DESC order on multiple array fields also, added ability to merge sort as well.'
+  spec.summary       = 'Algorithms for sorting arrays'
+  spec.description   = 'Support for asc and desc order on multiple array fields also added ability to merge sort as well.'
   spec.homepage      = "https://github.com/Jrsnow8921/SnowArraySort"
   spec.license       = "MIT"
 

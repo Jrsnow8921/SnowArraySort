@@ -1,14 +1,9 @@
 module SnowArraySort
   class SnowAD
     include SnowArraySort
-    def <=>(other)
+    def self.<=>(other)
       -super
     end
-
-    def self.snowsort
-      <=>(other)
-      -super
-    end 
   end 
 end
 
